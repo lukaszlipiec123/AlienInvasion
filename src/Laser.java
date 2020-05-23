@@ -2,6 +2,7 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 public class Laser extends Sprite {
 
@@ -32,4 +33,5 @@ public class Laser extends Sprite {
             this.removeSprite();
         }
     }
+
 }

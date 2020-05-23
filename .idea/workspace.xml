@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb55d8bf-fc42-4f1b-ae5d-1aed132b2d17" name="Default Changelist" comment="" />
+    <list default="true" id="cb55d8bf-fc42-4f1b-ae5d-1aed132b2d17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/alien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwingProject/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingProject/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwingProject/Laser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingProject/Laser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwingProject/MyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingProject/MyGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprite.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +28,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cBk8AFLHU7DJtqIcYshweKpGgf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -64,29 +84,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590009222379" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1590244989338">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1590255319195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590244989338" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1590244989338">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590255319195" />
+    <state width="1877" height="187" key="GridCell.Tab.0.bottom" timestamp="1590274196958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590244989338" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1590244989338">
+    <state width="1877" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590274196958" />
+    <state width="1877" height="187" key="GridCell.Tab.0.center" timestamp="1590274196958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590244989338" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1590244989338">
+    <state width="1877" height="187" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590274196958" />
+    <state width="1877" height="187" key="GridCell.Tab.0.left" timestamp="1590274196957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590244989338" />
+    <state width="1877" height="187" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590274196957" />
+    <state width="1877" height="187" key="GridCell.Tab.0.right" timestamp="1590274196958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="187" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590274196958" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590219717159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590219717159" />
+    <state x="-1280" y="60" width="1296" height="824" maximized="true" key="dock-window-1" timestamp="1590256323034">
+      <screen x="-1280" y="60" width="1280" height="984" />
+    </state>
+    <state x="-1280" y="60" width="1296" height="824" maximized="true" key="dock-window-1/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590256323034" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1590071344867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590071344867" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590271688559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590271688559" />
   </component>
 </project>

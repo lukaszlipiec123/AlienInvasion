@@ -3,7 +3,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.File;
 import java.io.IOException;
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.net.URL;
 
 public class MyGame extends JFrame {
 
@@ -14,12 +18,18 @@ public class MyGame extends JFrame {
     private void init() throws IOException {
         add(new GamePanel());
         this.setTitle("AlienInvasion");
+        try {
+            BufferedImage image = ImageIO.read(new File("assets/alien.png"));
+            this.setIconImage(image);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         pack();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(1024,768);
         this.setLocationRelativeTo(null);
-        this.setVisible(true);
         this.setResizable(false);
+        this.setVisible(true);
     }
 
 

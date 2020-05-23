@@ -45,4 +45,8 @@ public abstract class Sprite {
     protected boolean checkAlive(){
         return this.isAlive;
     }
+
+    public Rectangle getBounds(int x, int y){
+        return new Rectangle(horizontal, vertical, x, y);
+    }
 }

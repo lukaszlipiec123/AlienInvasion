@@ -1,4 +1,5 @@
 import java.awt.event.*;
+import java.io.IOException;
 
 public class MainLoop implements ActionListener {
 
@@ -9,6 +10,10 @@ public class MainLoop implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent a){
-        this.gamePanel.loop();
+        try {
+            this.gamePanel.loop();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
