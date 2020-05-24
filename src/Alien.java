@@ -10,10 +10,6 @@ public class Alien extends Sprite{
         return visible;
     }
 
-    public void setVisible(boolean visible) {
-        this.visible = visible;
-    }
-
     private boolean visible = true;
 
     public Alien(int horizontal, int vertical) throws IOException {
@@ -29,10 +25,6 @@ public class Alien extends Sprite{
 
     @Override
     public void move(){
-    }
-
-    public void move(int direction){
-        this.horizontal += direction;
     }
 
 }

@@ -1,5 +1,4 @@
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -17,7 +16,7 @@ public class Ship extends Sprite {
         Image shipImage = ImageIO.read(new File("assets/ship.png"));
         setImage(shipImage);
 
-        int startHorizontal = 512;
+        int startHorizontal = 454;
         int startVertical = 568;
 
         setHorizontal(startHorizontal);

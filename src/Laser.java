@@ -2,7 +2,7 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
+
 
 public class Laser extends Sprite {
 
@@ -12,15 +12,13 @@ public class Laser extends Sprite {
         init();
     }
 
-    public Laser(){
-
-    }
+    public Laser(){}
 
     private void init() throws IOException {
         Image laserImage = ImageIO.read(new File("assets/laser.png"));
         setImage(laserImage);
 
-        setHorizontal(horizontal + 64 - 10);
+        setHorizontal(horizontal + 48 - 10);
         setVertical(vertical);
 
     }

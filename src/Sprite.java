@@ -1,5 +1,6 @@
 import java.awt.*;
 
+
 public abstract class Sprite {
     private Image image;
     private boolean isAlive;

@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb55d8bf-fc42-4f1b-ae5d-1aed132b2d17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/alien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ship.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ship.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SwingProject/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingProject/GamePanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SwingProject/Laser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingProject/Laser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwingProject/MyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingProject/MyGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwingProject/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingProject/Ship.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,26 +90,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590255319195" />
-    <state width="1877" height="187" key="GridCell.Tab.0.bottom" timestamp="1590274196958">
+    <state width="1877" height="187" key="GridCell.Tab.0.bottom" timestamp="1590317311001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590274196958" />
-    <state width="1877" height="187" key="GridCell.Tab.0.center" timestamp="1590274196958">
+    <state width="1877" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590317311001" />
+    <state width="1877" height="187" key="GridCell.Tab.0.center" timestamp="1590317311001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="187" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590274196958" />
-    <state width="1877" height="187" key="GridCell.Tab.0.left" timestamp="1590274196957">
+    <state width="1877" height="187" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590317311001" />
+    <state width="1877" height="187" key="GridCell.Tab.0.left" timestamp="1590317311001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="187" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590274196957" />
-    <state width="1877" height="187" key="GridCell.Tab.0.right" timestamp="1590274196958">
+    <state width="1877" height="187" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590317311001" />
+    <state width="1877" height="187" key="GridCell.Tab.0.right" timestamp="1590317311001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="187" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590274196958" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590219717159">
+    <state width="1877" height="187" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590317311001" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590313948397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590219717159" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.60.1280.984@0.0.1920.1040" timestamp="1590313948397" />
     <state x="-1280" y="60" width="1296" height="824" maximized="true" key="dock-window-1" timestamp="1590256323034">
       <screen x="-1280" y="60" width="1280" height="984" />
     </state>
